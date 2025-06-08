@@ -9,7 +9,7 @@ class AlertManager:
     def __init__(self):
         self.twilio_sid = 'sid'
         self.twilio_token = 'token'
-        self.twilio_number = '+16412176555'
+        self.twilio_number = 'twilio number'
         self.recipient_number = 'your verified number'
         self.client = Client(self.twilio_sid, self.twilio_token)
 
