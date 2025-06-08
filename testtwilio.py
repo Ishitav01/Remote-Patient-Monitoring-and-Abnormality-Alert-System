@@ -1,10 +1,10 @@
 from twilio.rest import Client
 
 # Add your Twilio credentials directly for testing
-account_sid = 'AC0c314ab6dbac09517a0f04ccb48512a1'
-auth_token = '555b145aed89918eb6708780efa32e67'
-twilio_number = '+12564641084'
-recipient_number = '+917302876582'
+account_sid = 'SID'
+auth_token = 'token'
+twilio_number = 'twilio number'
+recipient_number = 'number'
 
 client = Client(account_sid, auth_token)
 
