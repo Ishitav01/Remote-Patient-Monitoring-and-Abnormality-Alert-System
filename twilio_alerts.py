@@ -7,10 +7,10 @@ load_dotenv()
 
 class AlertManager:
     def __init__(self):
-        self.twilio_sid = 'AC4126fc2d748895c618a0ecfb86cb1d0a'
-        self.twilio_token = 'b658eb329008aa38cb870a7065f85d2a'
+        self.twilio_sid = 'sid'
+        self.twilio_token = 'token'
         self.twilio_number = '+16412176555'
-        self.recipient_number = '+917017326582'
+        self.recipient_number = 'your verified number'
         self.client = Client(self.twilio_sid, self.twilio_token)
 
     def send_sms_alert(self, message):
